@@ -1,0 +1,132 @@
+[
+  {
+    "image": "assets/img/produto-01.png",
+    "name": "Produto 01",
+    "hover": "assets/img/produto_hover-01.png"
+  },
+  {
+    "image": "assets/img/produto-02.png",
+    "name": "Produto 02",
+    "hover": "assets/img/produto_hover-01.png"
+  },
+  {
+    "image": "assets/img/produto-03.png",
+    "name": "Produto 03",
+    "hover": "assets/img/produto_hover-01.png"
+  },
+  {
+    "image": "assets/img/produto-04.png",
+    "name": "Produto 04",
+    "hover": "assets/img/produto_hover-01.png"
+  },
+  {
+    "image": "assets/img/produto-05.png",
+    "name": "Produto 05",
+    "hover": "assets/img/produto_hover-01.png"
+  },
+  {
+    "image": "assets/img/produto-06.png",
+    "name": "Produto 06",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-07.png",
+    "name": "Produto 07",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-08.png",
+    "name": "Produto 08",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-09.png",
+    "name": "Produto 09",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-10.png",
+    "name": "Produto 10",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-11.png",
+    "name": "Produto 11",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-12.png",
+    "name": "Produto 12",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-13.png",
+    "name": "Produto 13",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-14.png",
+    "name": "Produto 14",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-15.png",
+    "name": "Produto 15",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-16.png",
+    "name": "Produto 16",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-17.png",
+    "name": "Produto 17",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-18.png",
+    "name": "Produto 18",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-19.png",
+    "name": "Produto 19",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-20.png",
+    "name": "Produto 20",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-21.png",
+    "name": "Produto 21",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-22.png",
+    "name": "Produto 22",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-23.png",
+    "name": "Produto 23",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-24.png",
+    "name": "Produto 24",
+    "hover": "assets/img/produto_hover-02.png"
+  },
+  {
+    "image": "assets/img/produto-25.png",
+    "name": "Produto 25",
+    "hover": ""
+  },
+  {
+    "image": "assets/img/produto-26.png",
+    "name": "Produto 26",
+    "hover": "assets/img/produto_hover-01.png"
+  }
+]

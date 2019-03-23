@@ -1,0 +1,37 @@
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.product {
+  transition: all .3s ease-in-out;
+  width: 95%;
+  max-width: 285px;
+  margin: auto;
+  position: relative;
+
+  &:hover {
+    transform: scale(.9)
+  }
+
+  &-hover {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity .15s linear;
+    top: 0;
+    position: absolute;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.row {
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

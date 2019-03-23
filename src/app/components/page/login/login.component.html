@@ -1,0 +1,12 @@
+<form (submit)="submit()">
+  <div class="row">
+    <label for="document">CPF/CNPJ</label>
+    <input type="text" id="document" name="document" placeholder="CPF/CNPJ" [(ngModel)]="cpfCnpj" [disabled]="loading">
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit" [disabled]="loading">
+  </div>
+  <div class="row" *ngIf="error">
+    <p class="error">Não foi possível encontrar seu cpf/cnpj em nossos registros.</p>
+  </div>
+</form>

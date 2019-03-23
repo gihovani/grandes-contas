@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row" *ngFor="let products of slickers">
+    <ngx-slick-carousel class="slider__default" [config]="slideConfig">
+      <div ngxSlickItem *ngFor="let product of products">
+        <div class="product" (click)="productHover(product)" (mouseover)="product.active=true"
+             (mouseleave)="product.active=false">
+          <img [src]="product.image" [alt]="product.name">
+          <img class="product-hover" [ngClass]="{'active': product.active}" [src]="product.hover" alt="Ganhe Brinde"
+               *ngIf="product.hover">
+        </div>
+      </div>
+    </ngx-slick-carousel>
+  </div>
+</div>

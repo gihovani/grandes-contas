@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <ngx-slick-carousel class="slider__default" [config]="slideConfig">
+      <div ngxSlickItem *ngFor="let banner of banners">
+        <a [href]="banner.link">
+          <picture>
+            <source [srcset]="banner.mobile" media="(max-width: 576px)">
+            <img [src]="banner.desktop" [alt]="banner.name">
+          </picture>
+        </a>
+      </div>
+    </ngx-slick-carousel>
+  </div>
+</div>
