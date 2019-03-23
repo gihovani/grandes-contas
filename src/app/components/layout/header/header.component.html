@@ -1,4 +1,4 @@
 <picture>
-  <source srcset="assets/img/topo-grandes-contas-mobile.png" media="(max-width: 576px)" aria-label="Grandes Contas">
-  <img src="assets/img/topo-grandes-contas.png" alt="Grandes Contas">
+  <source [srcset]="banner.mobile" media="(max-width: 576px)">
+  <img [src]="banner.desktop" [alt]="banner.name">
 </picture>

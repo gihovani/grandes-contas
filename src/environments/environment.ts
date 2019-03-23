@@ -1,5 +1,15 @@
 export const environment = {
-  production: false,
+  production: true,
+  data: {
+    bannerTop: {
+      name: 'Grandes Contas',
+      desktop: 'assets/img/topo-grandes-contas.png',
+      mobile: 'assets/img/topo-grandes-contas-mobile.png'
+    },
+    get url() {
+      return 'data/dental-speed';
+    }
+  },
   api: {
     protocol: 'https',
     host: 'api.dentalspeed.com',
