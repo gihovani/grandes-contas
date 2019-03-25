@@ -1,13 +1,13 @@
 [
   {
-    "desktop": "assets/img/banner-ticket-01.png",
-    "mobile": "assets/img/banner-ticket-mobile-01.png",
+    "desktop": "assets/img/dental-speed/banner-ticket-01.png",
+    "mobile": "assets/img/dental-speed/banner-ticket-mobile-01.png",
     "name": "Ticket",
     "link": "http://www.dentalspeed.com/max"
   },
   {
-    "desktop": "assets/img/banner-ticket-02.png",
-    "mobile": "assets/img/banner-ticket-mobile-02.png",
+    "desktop": "assets/img/dental-speed/banner-ticket-02.png",
+    "mobile": "assets/img/dental-speed/banner-ticket-mobile-02.png",
     "name": "Ticket",
     "link": "http://www.dentalspeed.com/max"
   }

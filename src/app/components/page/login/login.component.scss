@@ -2,39 +2,50 @@
   box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
+.form {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #EE354A;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  width: 100%;
-}
-
-input[type=submit]:hover {
-  background-color: #B92A3F;
-}
-
-form {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
   max-width: 400px;
   margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+
+  label {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  &-submit {
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    transition: all .2s;
+    background-color: #222;
+
+    &:hover {
+      background-color: #444;
+    }
+  }
 }
 
 .error {

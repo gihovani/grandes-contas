@@ -7,7 +7,7 @@ export const environment = {
       mobile: 'assets/img/dental-speed/topo-grandes-contas-mobile.png'
     },
     get url() {
-      return 'data/dental-speed';
+      return 'data/dental-cremer';
     }
   },
   api: {
