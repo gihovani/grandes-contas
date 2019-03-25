@@ -15,6 +15,7 @@ export class AuthService {
   }
 
   mailing(cpfCnpj): Observable<string[]> {
+    cpfCnpj = cpfCnpj.replace(/\D/g, '');
     return this.http.get<{ data: string[] }>(`${environment.api.url}/clientsMailings/${cpfCnpj}`)
       .pipe(map(response => response.data));
   }
