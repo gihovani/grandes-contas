@@ -3,8 +3,8 @@ export const environment = {
   data: {
     bannerTop: {
       name: 'Grandes Contas',
-      desktop: 'assets/img/topo-grandes-contas.png',
-      mobile: 'assets/img/topo-grandes-contas-mobile.png'
+      desktop: 'assets/img/dental-speed/topo-grandes-contas.png',
+      mobile: 'assets/img/dental-speed/topo-grandes-contas-mobile.png'
     },
     get url() {
       return 'data/dental-speed';
