@@ -1,6 +1,7 @@
 export const environment = {
   production: true,
   data: {
+    mailing: 'GRANDESCONTASDS',
     bannerTop: {
       name: 'Grandes Contas',
       desktop: 'assets/img/dental-speed/topo-grandes-contas.png',

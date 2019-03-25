@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {AuthService} from '../../../services/auth.service';
+import {environment} from '../../../../environments/environment';
 
 @Component({
   selector: 'app-login',
@@ -21,7 +22,7 @@ export class LoginComponent implements OnInit {
     this.loading = true;
     this.error = false;
     this.auth.mailing(this.cpfCnpj).subscribe(mailings => {
-      this.auth.me.isLogged = (mailings.indexOf('GRANDESCONTASDS') >= 0);
+      this.auth.me.isLogged = (mailings.indexOf(environment.data.mailing) >= 0);
       this.error = (!this.auth.me.isLogged);
       this.loading = false;
     }, () => {
